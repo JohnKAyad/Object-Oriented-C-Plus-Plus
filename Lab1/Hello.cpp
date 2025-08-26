@@ -3,7 +3,7 @@
 using namespace std;
 
 /* John Ayad Ece 2310 
-Setting up github and Vscode ad doing a small test
+Setting up github and Vscode and doing a small test
 ./
 
 int main() {
