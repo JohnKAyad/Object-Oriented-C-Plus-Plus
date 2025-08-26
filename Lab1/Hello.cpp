@@ -2,6 +2,10 @@
 #include <cstdlib>
 using namespace std;
 
+/* John Ayad Ece 2310 
+Setting up github and Vscode ad doing a small test
+./
+
 int main() {
     cout << "Hello, World!" << endl;
     printf("Hello World again!\n");
