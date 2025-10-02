@@ -13,10 +13,13 @@ int main(){
     printf("%s Current Stats\n", p2.getName().c_str());
     printf("Hits Taken: %i\t Luck: %f\t Exp: %f\t Level: %i\n", p2.getHitsTaken(), p2.getLuck(), p2.getExp(), p2.getLevel());
 
-    p2.setHitsTaken(2);
+    p2.setHitsTaken(3);
 
-    cout << "\nP2 hits taken ";
+    cout << "\n" << p2.getName() << " hits taken ";
     printf("%i\n", p2.getHitsTaken());
+
+    cout << "\n" << p1.getName() << " hits taken ";
+    printf("%i\n", p1.getHitsTaken());
 
     cout << "0 is dead, 1 is alive\n";
     p1.isAlive();

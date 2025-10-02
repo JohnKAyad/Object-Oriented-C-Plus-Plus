@@ -5,12 +5,14 @@
             "label": "C/C++: g++.exe build active file",
             "command": "C:/msys64/ucrt64/bin/g++.exe",
             "args": [
-                "-fdiagnostics-color=always",
-                "-g",
-                "${file}",
-                "-o",
-                "${fileDirname}\\${fileBasenameNoExtension}.exe"
-            ],
+                  "-fdiagnostics-color=always",
+         "-g",
+    "${workspaceFolder}/main.cpp",
+    "${workspaceFolder}/RPG.cpp",
+    "-o",
+    "${workspaceFolder}/Lab3.exe"
+],
+
             "options": {
                 "cwd": "C:/msys64/ucrt64/bin"
             },

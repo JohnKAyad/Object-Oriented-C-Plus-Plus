@@ -23,9 +23,11 @@ RPG::RPG(string name, int hits_taken, float luck, float exp, int level){
 //mutators
  bool RPG::isAlive() const{
     if(hits_taken < MAX_HITS_TAKEN){
+        cout << name << " 1\n";
         return true;
     }
     else{
+        cout << name << " 0\n";
         return false;
     }
 }
