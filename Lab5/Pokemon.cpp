@@ -1,5 +1,7 @@
 #include <iostream>
 #include <string>
+#include <vector>
+#include <cstdio>
 #include "Pokemon.h"
 
 /**
@@ -39,7 +41,7 @@
     printf("Name: %s\tHP: %i\tDEF: %i\tATT: %i\n", name.c_str(), hp, attack, defense);
     cout << "Type: ";
     for(int i = 0; i < type.size(); i++){
-        cout << type[i] << "/t";
+        cout << type[i] << "\t";
     }
     cout << endl;
 }

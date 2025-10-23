@@ -2,14 +2,12 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Launch Lab5 (gdb)",
+      "name": "Run Lab5",
       "type": "cppdbg",
       "request": "launch",
       "program": "${workspaceFolder}/Lab5/main.exe",
       "args": [],
-      "stopAtEntry": false,
       "cwd": "${workspaceFolder}/Lab5",
-      "environment": [],
       "externalConsole": true,
       "MIMode": "gdb",
       "miDebuggerPath": "C:/msys64/ucrt64/bin/gdb.exe",

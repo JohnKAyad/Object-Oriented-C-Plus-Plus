@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <vector>
 #include "Pokemon.h"
 #include "Charmander.h"
 using namespace std;
