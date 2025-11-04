@@ -11,7 +11,13 @@ public:
     //constructor
     Game();
     void generatePlayers(int n);
-    int selectPlayer;
+    int selectPlayer();
+    void endRound(RPG* winner, RPG* loser, int loserIndex);
+    void battleRound();
+    void gameLoop();
+    void printFinalResults();
+
+    ~Game(); //destructor;
 
 
 private:
