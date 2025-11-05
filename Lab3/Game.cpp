@@ -134,7 +134,11 @@ Game::Game(){
        */
 
        Game::~Game(){
-
+           for (auto p : players) {
+               delete p;
+           }
+           players.clear();
+           live_players.clear();
        }
 
        

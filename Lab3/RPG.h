@@ -50,7 +50,7 @@ public:
      * "Name: NPC__X        Hits Taken: X       Luck: 0.X00000      Exp: X0.00000       Level: X    Status: Alive or Dead"
      * 
      */
-    void printStats();
+    void printStats() const;
 
     /**
      * @brief Destroy the RPG::RPG object

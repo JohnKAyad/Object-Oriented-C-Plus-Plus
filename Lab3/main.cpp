@@ -1,8 +1,6 @@
 #include <iostream>
 #include "RPG.h"
-#include "RPG.cpp"
 #include "Game.h"
-#include "Game.cpp"
 #include <cstdio>
 using namespace std;
 
